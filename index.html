@@ -69,7 +69,31 @@ body {
 
   /* SECCIONES */
   section {
-    padding: 80px 0;
+   /* Eliminar padding global para secciones */
+section {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* Padding individual para cada sección */
+.hero {
+  padding-top: 40px !important;
+  padding-bottom: 40px !important;
+}
+
+.about.section-padding {
+  padding-top: 40px !important;
+  padding-bottom: 40px !important;
+}
+
+/* Opcional: otros padding para las demás secciones si quieres */
+.testimonials.section-padding,
+.faq.section-padding,
+.contact.section-padding {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
   }
 
   h3 {
@@ -547,6 +571,7 @@ servocontroladores, redes industriales.</h6>
 
 </body>
 </html>
+
 
 
 
